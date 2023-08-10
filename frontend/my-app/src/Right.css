@@ -1,0 +1,110 @@
+
+.code_edit{
+    background-color: rgba(25,25,25,255);
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    color: rgb(235, 235, 235);
+    padding: 13px;
+    resize: none;
+    width: 96%;
+    height: 100%;
+    outline: none;
+    font-size: larger;
+    margin: 9px;
+    overflow: auto;
+
+}
+
+  #btn1{
+    font-size: large;
+    margin-top: 8px;
+    background-color:rgb(81, 81, 81);
+    color:aliceblue;
+    border-radius: 5px;
+    
+    margin-right: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    cursor: pointer;
+  } 
+  #btn1.active{
+    background-color: rgba(55,55,55,255);
+  }
+  #btn2{
+    font-size: large;
+    margin-top: 8px;
+    background-color:rgb(81, 81, 81);
+    color:aliceblue;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    cursor: pointer;
+  } 
+  #btn2.active{
+    background-color: rgba(55,55,55,255);
+  }
+  #btn3{
+    font-size: large;
+    margin-top: 8px;
+    background-color:rgb(81, 81, 81);
+    color:aliceblue;
+    border-radius: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    cursor: pointer;
+  } 
+  #btn3.active{
+    background-color: rgba(55,55,55,255);
+  }
+  .terminal{
+   
+    padding: 5px;
+    border-radius: 9px;
+    background-color: rgba(55,55,55,255);
+
+  }
+  .soln{
+    font-size: larger;
+    
+    padding: 5px;
+    border-radius: 9px;
+    background-color: rgba(55,55,55,255);
+    height: auto;
+  }
+
+  .code{
+    
+    padding: 5px;
+    border-radius: 9px;
+    border-top-left-radius: 0;
+    background-color: rgba(55,55,55,255);
+    font-size: larger;
+    
+  }
+
+  .t_cases {
+    display: flex;
+  }
+  
+  .t_cases > * {
+    flex: 1;
+  }
+  
+  .btns{
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    margin-left: 7px;
+    border: 2px solid gray;
+    cursor: pointer;
+
+  }
+

@@ -1,0 +1,26 @@
+.ques_name{
+    
+    margin: 4px;
+    
+    overflow: auto;
+    border-radius: 7px;
+    padding-left: 6px;
+    background-color: rgba(55,55,55,255);
+   
+    cursor: pointer;
+}
+
+.box_p :hover{
+
+    background-color: rgba(65,65,65,255);
+}
+/* styles.css */
+
+body {
+    background-color: rgba(26,26,26,255); /* Replace with your desired background color */
+    color: aliceblue;
+  }
+  .list{
+    color: #333;
+  }
+  
